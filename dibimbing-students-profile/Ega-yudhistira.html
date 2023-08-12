@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Profile card ui design - Dibimbing</title>
+  </head>
+  <body>
+    <h2 style="text-align: center; color: white;">Press Profile Picture to back</h2>
+    <div class="container">
+      <div class="card">
+        <div class="card__border">
+          <a href="../landing.html"><img
+            src="https://github.com/eghasbp.png"
+            alt="card image"
+            class="card__img"
+          /></a>
+        </div>
+
+        <h3 class="card__name">Ega Yudhistira</h3>
+        <span class="card__info">Front-End Developer Enthusiast</span>
+        <span class="card__info">Jakarta</span>
+
+        <div class="card__social" id="card-social">
+          <div class="card__social-control">
+            <!-- Toggle button -->
+            <div class="card__social-toggle" id="card-toggle">
+              <i class="ri-add-line"></i>
+            </div>
+
+            <span class="card__social-text">My social networks</span>
+
+            <!-- Card social -->
+            <ul class="card__social-list">
+              <a
+                href="mailto:[eghaxperia@gmail.com]"
+                target="_blank"
+                class="card__social-link"
+              >
+                <i class="ri-mail-line"></i>
+              </a>
+
+              <a
+                href="https://github.com/eghasbp"
+                target="_blank"
+                class="card__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/ega-yudhistira/"
+                target="_blank"
+                class="card__social-link"
+              >
+                <i class="ri-linkedin-line"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

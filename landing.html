@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tagss for new branch -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./landing.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <title>MOV</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <!--  -->
+    <nav
+      class="navbar navbar-expand-lg mov-navbar mov-padding-right mov-padding-left"
+    >
+      <div class="container-fluid">
+        <div class="mov-row">
+          <!-- LEFT -->
+          <section class="left d-flex align-items-center">
+            <a class="navbar-brand" href="">
+              <img src="./Assets/logo/logo2.png" alt="" />
+            </a>
+            <!-- DROPDOWN -->
+            <div class="mov-dropdown-box dropdown">
+              <button
+                class="mov-dropdown dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Browse
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="./landing.html">Home</a>
+                <a class="dropdown-item" href="./tvshow.html">Movies</a>
+                <a class="dropdown-item" href="./news.html">News & Popular</a>
+                <a class="dropdown-item" href="./contact.html">Contact Me</a>
+              </div>
+            </div>
+            <!-- TABS -->
+            <div class="mov-nav">
+              <section>
+                <button><a href="./landing.html">Home</a></button>
+                <button><a href="./tvshow.html">Movies</a></button>
+                <button><a href="./news.html">News & Popular</a></button>
+                <button><a href="./contact.html">Contact Me</a></button>
+              </section>
+            </div>
+          </section>
+          <!-- RIGHT -->
+          <section class="right d-flex align-items-center">
+            <i class="bi bi-search"></i>
+            <a href="./index.html"><i class="bi bi-power"></i></a>
+            <div class="mov-profile">
+              <a href="./dibimbing-students-profile/Ega-yudhistira.html"
+                ><img
+                  class="profile-git"
+                  src="https://github.com/eghasbp.png"
+                  alt=""
+              /></a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </nav>
+    <!-- /header -->
+
+    <!-- VIDEO CONTENT -->
+    <div class="">
+      <section class="mov-home-video">
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <video src="./Assets/video/video.mp4" autoplay muted loop></video>
+        <div class="content">
+          <section class="left">
+            <img src="./Assets/image/Frame 1.png" alt="" />
+            <div class="mt-2 d-flex">
+              <button
+                class="btn btn-light m-2"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                <i class="bi bi-play-fill text-dark p-0"></i> Play Now
+              </button>
+              <button class="btn btn-secondary m-2">
+                <a
+                  style="text-decoration: none; color: white"
+                  href="https://www.justwatch.com/id/movie/after-we-collided"
+                  ><i class="bi bi-info-circle-fill p-0"></i> Details</a
+                >
+              </button>
+            </div>
+            <div class="container movie-details">
+              <div class="row">
+                <div class="col-md-12 left-box">
+                  <div class="casting">
+                    <a href="https://en.wikipedia.org/wiki/Dylan_Sprouse"
+                      ><img class="actor" src="./Assets/actor/1.jpg" alt=""
+                    /></a>
+                    <a href="https://en.wikipedia.org/wiki/Josephine_Langford"
+                      ><img class="actor" src="./Assets/actor/2.jpg" alt=""
+                    /></a>
+                    <a href="https://en.wikipedia.org/wiki/Hero_Fiennes_Tiffin"
+                      ><img class="actor" src="./Assets/actor/3.jpg" alt=""
+                    /></a>
+                    <a href="https://en.wikipedia.org/wiki/Candice_King"
+                      ><img class="actor" src="./Assets/actor/4.jpg" alt=""
+                    /></a>
+                    <a href="https://en.wikipedia.org/wiki/Inanna_Sarkis"
+                      ><img class="actor" src="./Assets/actor/5.jpg" alt=""
+                    /></a>
+                  </div>
+                  <p class="text-white">
+                    <br />Tessa has everything to lose; Hardin has nothing to
+                    lose--except her. 'After We Collided'--life will never be
+                    the same. After their relationship gets off to a tumultuous
+                    beginning, Tessa and Hardin are on the path to making things
+                    work. Tessa knows Hardin can be cruel, but when a bombshell
+                    revelation is dropped about the origins of their
+                    relationship--and Hardin's mysterious past--Tessa is beside
+                    herself. Hardin will always be--Hardin. But is he really the
+                    deep, thoughtful guy Tessa fell madly in love with despite
+                    his angry exterior--or has he been a stranger all along? She
+                    wishes she could walk away. It's just not that easy. Hardin
+                    knows he made a mistake, possibly the biggest one of his
+                    life. He's not going down without a fight. But can he
+                    change? Will he change--for love? Yes. Yes, he
+                    will.—punkress
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+    <!-- VIDEO CONTENT END -->
+
+    <!-- SLIDER -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">
+              After We Collided
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              width="800"
+              height="600"
+              src="https://www.youtube.com/embed/feQQhNYJRik"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <!-- FOOTER END -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./javascript.js"></script>
+  </body>
+</html>

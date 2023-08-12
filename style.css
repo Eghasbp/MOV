@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(#000000cd, #000000cb),
+    url("./Assets/background/login-bg.jpeg");
+  background-size: 100%;
+}
+
+.login-top {
+  width: 100vw;
+  height: 70px;
+  background: #00000000;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-top img {
+  width: 160px;
+  height: 80px;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.677);
+  width: 430px;
+  height: 630px;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0px 0px 70px rgba(255, 255, 255, 0.297);
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.form-control {
+  box-shadow: none !important;
+}
+
+.button-effect:hover {
+  font-size: 20px;
+}
